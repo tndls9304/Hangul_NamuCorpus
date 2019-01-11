@@ -9,5 +9,5 @@ Corpus generator of Namuwiki (https://namu.wiki) (Hangul, Korean)
 
 * (python or pypy) pypy namu_json_to_txt.py (path 직접 설정)
 
-*(python or pypy) pypy namu_json_to_txt.py namu.json namu.txt err.txt (sys argv 사용하여 실행하는 경우)
+* (python or pypy) pypy namu_json_to_txt.py namu.json namu.txt err.txt (sys argv 사용하여 실행하는 경우)
 
