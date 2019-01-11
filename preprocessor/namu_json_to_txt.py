@@ -27,8 +27,8 @@ Edited on Thu Jan  3 12:03:06 2019
 ## 180326 기준 덤프파일(json), 우분투 16.04에서 잘 작동합니다. namu.json을 이 위치에 두고 실행하십시오.
 ## 위에도 적혀있듯이 pypy로 실행해야 빠릅니다.
 ## pypy 는 필수는 아니지만, 약 3배 더 빨리 처리할 수 있습니다. (https://pypy.org/)
-## 명령어 : name@user:~$ some_path_to_pypy/bin/pypy namu_json_to_txt.py
-## 명령어 : name@user:~$ some_path_to_pypy/bin/pypy namu_json_to_txt_argv.py namu.json namu.txt err.txt (sysargv 버전 예시 입니다.)
+## 명령어 : name@user:~/Hangul_NamuCorpus/preprocessor$ some_path_to_pypy/bin/pypy namu_json_to_txt.py
+## 명령어 : name@user:~/Hangul_NamuCorpus/preprocessor$ some_path_to_pypy/bin/pypy namu_json_to_txt_argv.py namu.json namu.txt err.txt (sysargv 버전 예시 입니다.)
 ## 일반 python : ~100 docs/s
 ## pypy : ~300 docs/s
 ## 
