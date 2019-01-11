@@ -1,5 +1,6 @@
 # Hangul_NamuCorpus
 Corpus generator of Namuwiki (https://namu.wiki) (Hangul, Korean)
+나무위키 (https://namu.wiki)의 덤프파일을 사용한 말뭉치 생성기 (한글, 한국어)
 
 ## 사용 방법: 
 
