@@ -28,17 +28,23 @@ Edited on Thu Jan  3 12:03:06 2019
 ## 위에도 적혀있듯이 pypy로 실행해야 빠릅니다.
 ## pypy 는 필수는 아니지만, 약 3배 더 빨리 처리할 수 있습니다. (https://pypy.org/)
 ## 명령어 : name@user:~$ some_path_to_pypy/bin/pypy namu_json_to_txt.py
+## 명령어 : name@user:~$ some_path_to_pypy/bin/pypy namu_json_to_txt_argv.py namu.json namu.txt err.txt (sysargv 버전 예시 입니다.)
 ## 일반 python : ~100 docs/s
 ## pypy : ~300 docs/s
 ## 
-## sysarg 사용하고 싶은 사람은 sysarg 버전 사용하세요.
+## sysargv 사용하고 싶은 사람은 sysarg 버전 사용하세요.
+## sysargv 버전이 아니고 직접 path를 설정하실 분들은 namu_json_to_txt.py 에서 path를 수정하여 사용해주세요.
 #########################################################
 
-import codecs, time, re
+import codecs, time, re, sys
 
 namu_in_path = "namu.json"
 namu_out_path = "namu.txt"
 namu_err_path  = "err.txt"
+
+if sys.argv[3] is not None: namu_err_path = sys.argv[3]
+if sys.argv[2] is not None: namu_out_path = sys.argv[2]
+if sys.argv[1] is not None: namu_in_path = sys.argv[1]
 
 infile = codecs.open(namu_in_path, 'r', 'utf-8') #JSON 경로
 outfile = codecs.open(namu_out_path, 'w', 'utf-8') #출력 파일 경로
