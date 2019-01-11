@@ -7,7 +7,7 @@ Corpus generator of Namuwiki (https://namu.wiki) (Hangul, Korean)
 * 테스트: 20180326 기준 테스트 했습니다.
   + https://mu-star.net/wikidb 
   + http://dump.thewiki.ga/
-
+  + 출처: https://namu.wiki/w/나무위키:데이터베이스%20덤프
 
 ### 2. python 또는 pypy로 pypy namu_json_to_txt.py 를 실행하여 json을 txt로 변환한다.
 * namu_json_to_txt.py 실행
