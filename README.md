@@ -6,7 +6,7 @@ Corpus generator of Namuwiki (https://namu.wiki) (Hangul, Korean)
 ## 사용 방법: 
 
 ### 1. namu.json 을 아래 주소에서 다운받고 preprocessor/ 에 이동시킨다.
-* 테스트 덤프파일: 20180326 기준 덤프파일로 실행확인 했습니다.
+* 테스트 덤프파일: 20180326 기준 덤프파일로 실행확인 했습니다. (약 56만개 문서)
   + https://mu-star.net/wikidb 
   + http://dump.thewiki.ga/
   + 출처: https://namu.wiki/w/나무위키:데이터베이스%20덤프
