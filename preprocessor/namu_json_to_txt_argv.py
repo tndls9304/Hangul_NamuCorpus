@@ -30,7 +30,7 @@ Edited on Thu Jan  3 12:03:06 2019
 ## 명령어 : name@user:~$ some_path_to_pypy/bin/pypy namu_json_to_txt_argv.py namu.json namu.txt err.txt (sysargv 버전 입니다.)
 ## 일반 python : ~100 docs/s
 ## pypy : ~300 docs/s
-## 
+##
 ## sysargv 버전이 아니고 직접 path를 설정하실 분들은 namu_json_to_txt.py 에서 path를 수정하여 사용해주세요.
 #########################################################
 
