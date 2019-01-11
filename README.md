@@ -1,7 +1,7 @@
 # Hangul_NamuCorpus
 Corpus generator of Namuwiki (https://namu.wiki) (Hangul, Korean)
 
-사용 방법: 
+## 사용 방법: 
 
 ### 1. namu.json 을 아래 주소에서 다운받고 preprocessor/ 에 이동시킨다.
 * 테스트: 20180326 기준 테스트 했습니다.
