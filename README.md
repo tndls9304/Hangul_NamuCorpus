@@ -13,6 +13,6 @@ Corpus generator of Namuwiki (https://namu.wiki) (Hangul, Korean)
 
 ### 2. python 또는 pypy로 pypy namu_json_to_txt.py 를 실행하여 json을 txt로 변환한다.
 * namu_json_to_txt.py 실행
-  + (python or pypy) namu_json_to_txt.py (path 직접 설정)
+  + (python or pypy) namu_json_to_txt.py (py 파일 내 path 직접 설정)
   + (python or pypy) namu_json_to_txt.py namu.json namu.txt err.txt (sys argv 사용하여 실행하는 경우)
 
